@@ -279,3 +279,9 @@ http://localhost:8000/admin/
 ```
 ![admin-portal](https://github.com/user-attachments/assets/0a6f3401-5cce-4d6e-aaab-0f57fc659b98)
 
+```bash
+http://localhost:8000/swagger/
+```
+<img width="1716" height="716" alt="image" src="https://github.com/user-attachments/assets/3a05418c-f69f-4aba-824c-7b259b63df04" />
+
+
