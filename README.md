@@ -226,13 +226,11 @@ docker run -p 8000:8000 \
 
 ### Security Checklist
 
-- ✅ Secret key properly configured
-- ✅ Debug mode disabled in production
-- ✅ Database connections secured
-- ✅ CORS properly configured
-- ✅ Static files served efficiently
-- ✅ Security headers enabled
-- ✅ Input validation on all endpoints
+- Secret key properly configured
+- Debug mode disabled in production
+- Database connections secured
+- CORS properly configured
+- Input validation on all endpoints
 
 
 ## Next Steps
@@ -249,3 +247,35 @@ If I had additional time, I would implement:
    - Post categories and tags
    - Image uploads for posts
    - Comment threading/replies
+
+### Screeshots
+```bash
+GET http://localhost:8000/api/posts/
+```
+<img width="588" height="670" alt="image" src="https://github.com/user-attachments/assets/f2b69ca3-c3b6-47ec-b6dd-9721c2ea3bfe" />
+
+```bash
+GET http://localhost:8000/api/posts/1
+```
+<img width="611" height="791" alt="image" src="https://github.com/user-attachments/assets/c31b883d-15ca-4dcb-a0c2-34d5de94771a" />
+
+```bash
+POST http://localhost:8000/api/posts/
+```
+<img width="641" height="568" alt="image" src="https://github.com/user-attachments/assets/d0cc596a-1112-4752-8cb8-23d20bd9577d" />
+
+```bash
+POST http://localhost:8000/api/posts/](http://localhost:8000/api/posts/2/comments/
+```
+<img width="637" height="515" alt="image" src="https://github.com/user-attachments/assets/0982ee4d-1920-4bca-8871-03d95bb20f60" />
+
+```bash
+./setup.sh test-all
+```
+<img width="437" height="545" alt="image" src="https://github.com/user-attachments/assets/ee348b19-3e8a-406d-af3e-46ce4f1b5ebb" />
+
+```bash
+http://localhost:8000/admin/
+```
+![admin-portal](https://github.com/user-attachments/assets/0a6f3401-5cce-4d6e-aaab-0f57fc659b98)
+
