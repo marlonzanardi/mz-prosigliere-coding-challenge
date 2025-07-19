@@ -198,17 +198,7 @@ curl -X POST http://localhost:8000/api/posts/1/comments/ \
 | `DATABASE_URL` | Database connection URL | SQLite |
 | `ALLOWED_HOSTS` | Comma-separated allowed hosts | `localhost,127.0.0.1` |
 
-### Database Configuration
 
-**PostgreSQL (Production):**
-```
-DATABASE_URL=postgresql://user:password@localhost:5432/blog_db
-```
-
-**SQLite (Development):**
-```
-DATABASE_URL=sqlite:///db.sqlite3
-```
 
 ## Production Deployment
 
