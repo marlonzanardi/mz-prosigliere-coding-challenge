@@ -4,7 +4,7 @@ A production-ready RESTful API for managing a simple blogging platform built wit
 
 ## Features
 
-- **Complete CRUD operations** for blog posts and comments
+- **Complete operations** for blog posts and comments
 - **Optimized database queries** with proper indexing and annotations
 - **Comprehensive test suite** with 95%+ coverage
 - **Production-ready configuration** with security best practices
@@ -28,6 +28,8 @@ A production-ready RESTful API for managing a simple blogging platform built wit
 - **Containerization**: Docker + Docker Compose
 - **Testing**: pytest-django
 - **Code Quality**: Production-ready with unit tests
+
+Environment used to develop and test: Ubuntu 22.04 WSL 2 Distribution
 
 ## Architecture
 
